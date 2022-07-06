@@ -2,7 +2,7 @@ package homework1;
 
 public class Homework {
     public static void main(String[] args) {
-      /*  Task1.task1();
+        Task1.task1();
         Task2.task2();
         Task3.task3();
         Task4.task4();
@@ -21,7 +21,7 @@ public class Homework {
         Task15.task15DoWhile();
         Task16.task16();
         Task17.task17();
-        Task18.task18(); */
+        Task18.task18();
         Task19.task19();
 
     }
