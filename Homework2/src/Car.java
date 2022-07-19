@@ -2,12 +2,12 @@
 public class Car implements CarMovies, Comparable<Car> {
   CarBrands brand;
   String model;
-
   String bodyType;
   double engineVolume;
   int numOfDoors;
   String fuelType;
   int year;
+  private Car o;
 
   public Car() {
   }
@@ -115,7 +115,7 @@ public class Car implements CarMovies, Comparable<Car> {
 
   @Override
   public int compareTo(Car o) {
-    return this.getNumOfDoors()- o.getNumOfDoors();
+   return this.getNumOfDoors()- o.getNumOfDoors();
   }
 
 }
