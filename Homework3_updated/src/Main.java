@@ -64,10 +64,6 @@ public class Main {
     for (Student student : students) System.out.println(student);
 
     System.out.println("==================Users=====================================");
-   /* List<User> users = UserUtil.usersExamples();
-    for (User print : users) {
-      System.out.println(print);
-    } */
     List<User> usersAndFriends = UserUtil.friendCreation();
     for (User user : usersAndFriends) {
       System.out.println(user);
